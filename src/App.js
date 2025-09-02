@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import Dashboard from "./pages/Dashboard";
-import Profile from "./pages/Profile";
-import Chat from "./pages/Chat";
-import Diary from "./pages/Diary";
-import Forum from "./pages/Forum";
-import Resources from "./pages/Resources";
-import Booking from "./pages/Booking";
+import Dashboard from "./Pages/Dashboard";
+import Profile from "./Pages/Profile";
+import Chat from "./Pages/Chat";
+import Diary from "./Pages/Diary";
+import Forum from "./Pages/Forum";
+import Resources from "./Pages/Resources";
+import Booking from "./Pages/Booking";
 
 function App() {
   return (
