@@ -1,0 +1,35 @@
+{
+  "name": "ChatMessage",
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "sender": {
+      "type": "string",
+      "enum": [
+        "user",
+        "bot"
+      ]
+    },
+    "text": {
+      "type": "string"
+    },
+    "sentiment": {
+      "type": "string"
+    },
+    "is_escalation": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "user_id",
+    "session_id",
+    "sender",
+    "text"
+  ]
+}
