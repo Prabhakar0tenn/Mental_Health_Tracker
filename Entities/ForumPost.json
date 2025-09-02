@@ -1,0 +1,38 @@
+{
+  "name": "ForumPost",
+  "type": "object",
+  "properties": {
+    "user_alias": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "upvotes": {
+      "type": "number",
+      "default": 0
+    },
+    "is_flagged": {
+      "type": "boolean",
+      "default": false
+    },
+    "is_removed": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "user_alias",
+    "title",
+    "body"
+  ]
+}
